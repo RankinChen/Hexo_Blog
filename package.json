@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "1.install-hexo-cli": "npm install -g hexo-cli",
+    "2.hexo-init":"hexo init",
     "install-sftp": "npm install hexo-deployer-sftp --save",
     "deploy": "hexo deploy"
   },
