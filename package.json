@@ -8,7 +8,7 @@
     "version": "hexo version",
     "clean": "hexo clean",
     "generate":"hexo generate",
-    "preview-server":"hexo generate && hexo server --ip 127.0.0.1 --port 4001 --static --log",
+    "preview-server":"hexo generate && hexo server --ip 127.0.0.1 --port 4001 --log",
     "install-sftp": "npm install hexo-deployer-sftp --save",
     "deploy": "hexo deploy"
   },
