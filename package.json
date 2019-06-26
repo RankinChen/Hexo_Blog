@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "1.install-hexo-cli": "npm install -g hexo-cli",
+    "2.hexo-init": "npm install hexo init",
+    "version": "hexo version",
+    "clean": "hexo clean",
+    "generate":"hexo generate",
+    "preview-server":"hexo generate && hexo server --ip 127.0.0.1 --port 4001 --log",
     "install-sftp": "npm install hexo-deployer-sftp --save",
     "deploy": "hexo deploy"
   },
