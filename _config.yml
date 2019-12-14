@@ -82,7 +82,7 @@ deploy:                                     # 部署部分的设置
   type: sftp                                # 使用SFTP方式发布 
   host: 120.27.69.65                        # 远程主机的地址 
   user: root                                # 使用者名称 
-  pass: Lang59575691                        # 密码 
+  pass:                         # 密码 
   remotePath: /home/www                     # 远程主机的根目录 
   port: 22                                  # 端口 
   privateKey:                               # ssh私钥的目录地址 
