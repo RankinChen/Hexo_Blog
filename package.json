@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "1.2.命令只执行一次 之后不要在执行":"",
     "1.install-hexo-cli": "npm install -g hexo-cli",
     "2.hexo-init": "npm install hexo init",
+    "3.install-sftp": "npm install hexo-deployer-sftp --save",
     "version": "hexo version",
     "clean": "hexo clean",
     "server": "hexo server",
-    "install-sftp": "npm install hexo-deployer-sftp --save",
     "deploy": "hexo deploy"
   },
   "hexo": {
