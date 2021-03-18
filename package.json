@@ -4,21 +4,19 @@
   "private": true,
   "scripts": {
     "1.2.命令只执行一次 之后不要在执行": "",
-    "本地预览执行server": "",
-    "发布命令执行deploy": "",
     "1.install-hexo-cli": "npm install -g hexo-cli",
     "2.hexo-init": "npm install hexo init",
     "3.install-sftp": "npm install hexo-deployer-sftp --save",
     "version": "hexo version",
     "clean": "hexo clean",
-    "server": "hexo server",
-    "deploy": "hexo deploy"
+    "本地预览执行server": "hexo server",
+    "发布命令执行deploy": "hexo deploy"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "4.2.1"
   },
   "dependencies": {
-    "hexo": "^4.2.0",
+    "hexo": "^4.2.1",
     "hexo-deployer-sftp": "^0.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -27,6 +25,7 @@
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^1.0.0",
+    "init": "^0.1.2"
   }
 }
